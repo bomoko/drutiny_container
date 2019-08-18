@@ -1,0 +1,3 @@
+lagoon-project-name-here:
+  branch: dev #the branch you want to run
+  policy: d8 #the policy you wish to run on the branch

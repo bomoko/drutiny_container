@@ -1,0 +1,25 @@
+{
+  "name": "amazee/drutiny_driver",
+  "type": "project",
+  "description": "This project will run some drutiny policies per hostname",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "drutiny/drutiny": "2.3.x-dev",
+    "drutiny/plugin-drupal-7": "2.x-dev",
+    "drutiny/plugin-drupal-8": "2.x-dev",
+    "drutiny/http": "2.x-dev",
+    "amazee/laragoon-support-libs": "^0.1",
+    "symfony/yaml": "^3.4"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  }
+}
