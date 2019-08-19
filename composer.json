@@ -14,7 +14,11 @@
     "drutiny/plugin-drupal-8": "2.x-dev",
     "drutiny/http": "2.x-dev",
     "amazee/laragoon-support-libs": "^0.1",
-    "symfony/yaml": "^3.4"
+    "symfony/yaml": "^3.4",
+    "symfony/console": "^3.4",
+    "adambrett/shell-wrapper": "dev-master",
+    "maknz/slack": "dev-master",
+    "vlucas/phpdotenv": "^3.4@dev"
   },
   "config": {
     "bin-dir": "bin"

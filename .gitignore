@@ -2,3 +2,4 @@ lagoonprojects.yml
 .idea
 bin/
 vendor/
+.env
