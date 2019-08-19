@@ -1,3 +1,4 @@
 lagoon-project-name-here:
   branch: dev #the branch you want to run
+  root: /app/web #this must be set to the root of your remote Drupal installation
   policy: d8 #the policy you wish to run on the branch

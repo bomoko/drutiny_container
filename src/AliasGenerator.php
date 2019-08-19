@@ -31,6 +31,7 @@ class AliasGenerator
             //project we're currently looking at
             foreach ($aliases as $aliasName => $alias) {
                 if ($aliasName == $details['branch']) {
+                    $alias['root'] = !empty($details['root']) ? $details['root'] : '/app/web';
                     $return[$name] = $alias;
                 }
             }
